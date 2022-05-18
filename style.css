@@ -122,23 +122,24 @@ span {
     section {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 350px;
         height: 800px;
-        margin: 50px 20px 0px 0px ;        
+        margin: 50px auto 0px ;  
+        align-items: center;      
     }
     
     .card-x {
         height: 740px;
         border-bottom-right-radius: 10px;
         width: 350px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
     
     .img2 {
         display: block;
-        border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
         height: 250px;
-        
+        border-top-left-radius: 10px;
     }
     
     h1 {
