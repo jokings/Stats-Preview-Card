@@ -111,6 +111,15 @@ span {
 }
 
 @media (max-width: 760px) {
+    .card-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+   
+
     section {
         display: flex;
         flex-direction: column;
@@ -120,7 +129,7 @@ span {
     }
     
     .card-x {
-        height: 720px;
+        height: 740px;
         border-bottom-right-radius: 10px;
     }
     
@@ -158,7 +167,7 @@ span {
     }
     
     .name {
-        margin:0 0 20px 40px;
+        margin:0 0 20px 50px;
     }
     
     .website-ver {
