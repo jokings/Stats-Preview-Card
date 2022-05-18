@@ -114,7 +114,6 @@ span {
     .card-main {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         min-height: 100vh;
     }
@@ -124,7 +123,8 @@ span {
         display: flex;
         flex-direction: column;
         width: 800px;
-        height: 800px;        
+        height: 800px; 
+        margin: 100px auto 0px 150px ;
     }
     
     .card-x {
