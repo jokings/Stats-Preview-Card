@@ -124,8 +124,7 @@ span {
         display: flex;
         flex-direction: column;
         width: 800px;
-        height: 800px;
-        margin: 100px auto 0px 150px ;        
+        height: 800px;        
     }
     
     .card-x {
