@@ -97,7 +97,8 @@ span {
     height: 380px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    opacity: 0.5;
+    mix-blend-mode:multiply;
+    opacity: 0.7;
 }
 
 .attribution { 
